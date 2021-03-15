@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9451C8425FF997E0043F456 /* CoreDataModelMigrationBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451C8325FF997E0043F456 /* CoreDataModelMigrationBugApp.swift */; };
+		D9451C8625FF997E0043F456 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451C8525FF997E0043F456 /* ContentView.swift */; };
+		D9451C8825FF99800043F456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9451C8725FF99800043F456 /* Assets.xcassets */; };
+		D9451C8B25FF99800043F456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9451C8A25FF99800043F456 /* Preview Assets.xcassets */; };
+		D9451C8D25FF99800043F456 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9451C8C25FF99800043F456 /* Persistence.swift */; };
+		D9451C9025FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9451C8E25FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodeld */; };
+		D9451CC625FFF4920043F456 /* CoreDataModelMigrationBug.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = D9451CC325FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-wal */; };
+		D9451CC725FFF4920043F456 /* CoreDataModelMigrationBug.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D9451CC225FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite */; };
+		D9451CC825FFF4920043F456 /* CoreDataModelMigrationBug.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = D9451CC425FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-shm */; };
+		D9451CCC25FFF55B0043F456 /* Model-v1-v2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D9451CCB25FFF55B0043F456 /* Model-v1-v2.xcmappingmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9451C8025FF997E0043F456 /* CoreDataModelMigrationBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataModelMigrationBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9451C8325FF997E0043F456 /* CoreDataModelMigrationBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModelMigrationBugApp.swift; sourceTree = "<group>"; };
+		D9451C8525FF997E0043F456 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9451C8725FF99800043F456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9451C8A25FF99800043F456 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9451C8C25FF99800043F456 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D9451C8F25FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModelMigrationBug.xcdatamodel; sourceTree = "<group>"; };
+		D9451C9125FF99800043F456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9451C9825FF9E260043F456 /* CoreDataModelMigrationBug 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataModelMigrationBug 2.xcdatamodel"; sourceTree = "<group>"; };
+		D9451CC225FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoreDataModelMigrationBug.sqlite; sourceTree = "<group>"; };
+		D9451CC325FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CoreDataModelMigrationBug.sqlite-wal"; sourceTree = "<group>"; };
+		D9451CC425FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CoreDataModelMigrationBug.sqlite-shm"; sourceTree = "<group>"; };
+		D9451CCB25FFF55B0043F456 /* Model-v1-v2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = "Model-v1-v2.xcmappingmodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9451C7D25FF997E0043F456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9451C7725FF997E0043F456 = {
+			isa = PBXGroup;
+			children = (
+				D9451C8225FF997E0043F456 /* CoreDataModelMigrationBug */,
+				D9451C8125FF997E0043F456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9451C8125FF997E0043F456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9451C8025FF997E0043F456 /* CoreDataModelMigrationBug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9451C8225FF997E0043F456 /* CoreDataModelMigrationBug */ = {
+			isa = PBXGroup;
+			children = (
+				D9451CA225FFA2260043F456 /* V1-database */,
+				D9451C8325FF997E0043F456 /* CoreDataModelMigrationBugApp.swift */,
+				D9451C8525FF997E0043F456 /* ContentView.swift */,
+				D9451C8725FF99800043F456 /* Assets.xcassets */,
+				D9451C8C25FF99800043F456 /* Persistence.swift */,
+				D9451CCB25FFF55B0043F456 /* Model-v1-v2.xcmappingmodel */,
+				D9451C9125FF99800043F456 /* Info.plist */,
+				D9451C8E25FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodeld */,
+				D9451C8925FF99800043F456 /* Preview Content */,
+			);
+			path = CoreDataModelMigrationBug;
+			sourceTree = "<group>";
+		};
+		D9451C8925FF99800043F456 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9451C8A25FF99800043F456 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9451CA225FFA2260043F456 /* V1-database */ = {
+			isa = PBXGroup;
+			children = (
+				D9451CC225FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite */,
+				D9451CC425FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-shm */,
+				D9451CC325FFF3F80043F456 /* CoreDataModelMigrationBug.sqlite-wal */,
+			);
+			path = "V1-database";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9451C7F25FF997E0043F456 /* CoreDataModelMigrationBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9451C9425FF99800043F456 /* Build configuration list for PBXNativeTarget "CoreDataModelMigrationBug" */;
+			buildPhases = (
+				D9451C7C25FF997E0043F456 /* Sources */,
+				D9451C7D25FF997E0043F456 /* Frameworks */,
+				D9451C7E25FF997E0043F456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataModelMigrationBug;
+			productName = CoreDataModelMigrationBug;
+			productReference = D9451C8025FF997E0043F456 /* CoreDataModelMigrationBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9451C7825FF997E0043F456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D9451C7F25FF997E0043F456 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D9451C7B25FF997E0043F456 /* Build configuration list for PBXProject "CoreDataModelMigrationBug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9451C7725FF997E0043F456;
+			productRefGroup = D9451C8125FF997E0043F456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9451C7F25FF997E0043F456 /* CoreDataModelMigrationBug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9451C7E25FF997E0043F456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9451CC725FFF4920043F456 /* CoreDataModelMigrationBug.sqlite in Resources */,
+				D9451C8B25FF99800043F456 /* Preview Assets.xcassets in Resources */,
+				D9451C8825FF99800043F456 /* Assets.xcassets in Resources */,
+				D9451CC625FFF4920043F456 /* CoreDataModelMigrationBug.sqlite-wal in Resources */,
+				D9451CC825FFF4920043F456 /* CoreDataModelMigrationBug.sqlite-shm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9451C7C25FF997E0043F456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9451C8D25FF99800043F456 /* Persistence.swift in Sources */,
+				D9451C8625FF997E0043F456 /* ContentView.swift in Sources */,
+				D9451C9025FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodeld in Sources */,
+				D9451CCC25FFF55B0043F456 /* Model-v1-v2.xcmappingmodel in Sources */,
+				D9451C8425FF997E0043F456 /* CoreDataModelMigrationBugApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9451C9225FF99800043F456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9451C9325FF99800043F456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9451C9525FF99800043F456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataModelMigrationBug/Preview Content\"";
+				DEVELOPMENT_TEAM = MQRRG9G4R7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoreDataModelMigrationBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diogot.bugs.CoreDataModelMigrationBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9451C9625FF99800043F456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreDataModelMigrationBug/Preview Content\"";
+				DEVELOPMENT_TEAM = MQRRG9G4R7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CoreDataModelMigrationBug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diogot.bugs.CoreDataModelMigrationBug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9451C7B25FF997E0043F456 /* Build configuration list for PBXProject "CoreDataModelMigrationBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9451C9225FF99800043F456 /* Debug */,
+				D9451C9325FF99800043F456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9451C9425FF99800043F456 /* Build configuration list for PBXNativeTarget "CoreDataModelMigrationBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9451C9525FF99800043F456 /* Debug */,
+				D9451C9625FF99800043F456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9451C8E25FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9451C9825FF9E260043F456 /* CoreDataModelMigrationBug 2.xcdatamodel */,
+				D9451C8F25FF99800043F456 /* CoreDataModelMigrationBug.xcdatamodel */,
+			);
+			currentVersion = D9451C9825FF9E260043F456 /* CoreDataModelMigrationBug 2.xcdatamodel */;
+			path = CoreDataModelMigrationBug.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9451C7825FF997E0043F456 /* Project object */;
+}
