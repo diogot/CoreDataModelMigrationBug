@@ -1,0 +1,2 @@
+# CoreDataModelMigrationBug
+CoreDataModelMigrationBug
